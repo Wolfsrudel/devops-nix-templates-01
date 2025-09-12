@@ -53,6 +53,16 @@
         '';
       };
 
+      dioxus = {
+        path = ./dioxus;
+        description = "Dioxus development template using fenix";
+        welcomeText = ''
+          You have created a Dioxus template that will help you manage
+          your project. See the README for instructions on how to use
+          the template.
+        '';
+      };
+
       kotlin = {
         path = ./kotlin;
         description = "Kotlin development template using gradle";
